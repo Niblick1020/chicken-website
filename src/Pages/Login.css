@@ -1,0 +1,53 @@
+/* \chicken-website\src\Pages\Login.css */
+.Form-Container {
+  min-height: 100vh;
+  text-align: center;
+  color: #fff5e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  border: 1px solid #fff5e1;
+  padding: 5rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  border: none;
+  background-color: #556b2f;
+  color: #fff5e1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #d2b48c;
+}
+
+.link-button {
+  background: none;
+  color: #fff5e1;
+  text-decoration: underline;
+}

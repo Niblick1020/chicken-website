@@ -1,13 +1,31 @@
+/* \chicken-website\src\index.css */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: -webkit-linear-gradient(
+    79deg,
+    #d2b48c,
+    #8b4513 48%,
+    #d2b48c
+  ); /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(
+    79deg,
+    #d2b48c,
+    #8b4513 48%,
+    #d2b48c
+  ); /* For Firefox */
+  background-image: linear-gradient(
+    79deg,
+    #d2b48c,
+    #8b4513,
+    #d2b48c
+  ); /* Standard syntax */
+  min-height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

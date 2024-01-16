@@ -1,0 +1,77 @@
+/* \chicken-website\src\Navbar.css */
+
+nav {
+  position: relative;
+  z-index: 3000;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background: #556b2f;
+  text-align: center;
+  font-size: 30px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 30px 0 0;
+  display: inline-block;
+  padding: 20px 0px;
+}
+
+li > a:after {
+  content: " »";
+} /* Change this in order to change the Dropdown symbol */
+
+li > a:only-child:after {
+  content: "";
+}
+
+nav ul li a {
+  padding: 0px 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  opacity: 0.5;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: #556b2f;
+  float: left;
+}
+
+nav ul li ul li {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  nav ul li {
+    margin: 0 5px 0 0;
+    padding: 20px 0px;
+  }
+  nav ul {
+    font-size: 22px;
+  }
+  nav ul li a {
+    padding: 0px 15px;
+  }
+}

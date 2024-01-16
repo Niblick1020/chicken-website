@@ -1,0 +1,60 @@
+/*
+This is the file path
+\chicken-website\src\components\ratings.css
+*/
+
+.review-box {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background: #556b2f;
+  border: 15px solid #556b2f;
+  border-radius: 15px;
+  width: 25%;
+  min-width: 350px;
+  height: 270px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+  margin: 15px;
+}
+
+.header {
+  color: white;
+
+  padding: 15px;
+  font-size: 36px;
+  text-align: center;
+  background: #556b2f;
+  border: 15px solid #556b2f;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+  width: 70%;
+  margin: 3% auto;
+}
+
+.button {
+  display: block;
+  font-size: 24px;
+  background-color: transparent;
+  text-decoration: underline;
+  margin: 3% auto;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 30px;
+  }
+  .review {
+    font-size: 20px;
+    min-width: 260px;
+  }
+}
