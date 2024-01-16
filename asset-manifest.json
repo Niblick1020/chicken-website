@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chicken-website/static/css/main.8446e566.css",
+    "main.js": "/chicken-website/static/js/main.8ad1d167.js",
+    "static/js/787.17b3b6d6.chunk.js": "/chicken-website/static/js/787.17b3b6d6.chunk.js",
+    "static/media/eggs4.jpg": "/chicken-website/static/media/eggs4.9b765b2ae677d7b1ff1a.jpg",
+    "static/media/chicken1.jpg": "/chicken-website/static/media/chicken1.ce25f15c08a93e10eb07.jpg",
+    "static/media/chicken2.jpg": "/chicken-website/static/media/chicken2.5f65bec548e8ee81f2b7.jpg",
+    "static/media/eggs3.jpg": "/chicken-website/static/media/eggs3.846c7f70562543ccf49d.jpg",
+    "static/media/eggs2.jpg": "/chicken-website/static/media/eggs2.276eeed80e68be859233.jpg",
+    "static/media/cat1.jpg": "/chicken-website/static/media/cat1.c8f8c8186710330cfedd.jpg",
+    "static/media/garden1.jpg": "/chicken-website/static/media/garden1.80f3a840933bb0729d50.jpg",
+    "static/media/eggs1.jpg": "/chicken-website/static/media/eggs1.30d9b6c6fd44d237fb1e.jpg",
+    "static/media/bootstrap-icons.woff?": "/chicken-website/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/chicken-website/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "index.html": "/chicken-website/index.html",
+    "main.8446e566.css.map": "/chicken-website/static/css/main.8446e566.css.map",
+    "main.8ad1d167.js.map": "/chicken-website/static/js/main.8ad1d167.js.map",
+    "787.17b3b6d6.chunk.js.map": "/chicken-website/static/js/787.17b3b6d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8446e566.css",
+    "static/js/main.8ad1d167.js"
+  ]
+}
